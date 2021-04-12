@@ -7,7 +7,7 @@ from kivy.uix.textinput import TextInput
 class MyGrid(GridLayout):
     def __init__(self, **kwargs):
         super(MyGrid, self).__init__(**kwargs)
-        self.cols = 3
+        self.cols = 2
         self.add_widget(Label(text="First Name: "))
         self.name = TextInput(multiline=False)
         self.add_widget(self.name)
